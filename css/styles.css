@@ -1,0 +1,27 @@
+/* tag selector */
+body{
+  background-color: #eaf6f6;
+  /* height: 30px; khong the change, do default css cua browser*/
+}
+hr {
+  border-color: gray;
+  border-style: dotted none none;
+  width: 10%;
+  height: 3px;
+  border-width: 15px;
+
+}
+
+img{
+  height: 120px;
+}
+h1, h3 {
+  color:#66bfbf;
+}
+/* class selector */
+/* override effect of tag selector */
+.classCustom{
+  color:red;
+}
+
+/* id selector */
